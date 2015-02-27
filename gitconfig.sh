@@ -10,4 +10,5 @@ echo $myname
 
 git config --global user.email "$myemail"
 git config --global user.name "$myname"
-
+git config --global credential.helper 'cache --timeout=28800'
+git config --global url."https://bel${mlts[7]}mor@github.com".insteadOf "https://github.com"
